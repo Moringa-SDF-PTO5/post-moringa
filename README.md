@@ -51,7 +51,7 @@ This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) 
 
 ## Contact
 
-For any questions or inquiries, please contact [Your Name](mailto:okumu.otsembo@gmail.com).
+For any questions or inquiries, please contact [Ian Okumu](mailto:okumu.otsembo@gmail.com).
 
 ---
 
