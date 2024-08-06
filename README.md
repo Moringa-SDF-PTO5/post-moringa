@@ -17,7 +17,7 @@ This slide deck covers the general structure of software engineering interviews,
 - Key topics and preparation strategies
 - Tips for success during the interview process
 
-**[View the slides](./Software_Engineering_Interviews.md)**
+**[View the slides](./interviews.md)**
 
 ### 2. Building a Portfolio and Community Engagement
 
