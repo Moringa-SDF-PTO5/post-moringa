@@ -4,13 +4,41 @@ ENABLE:
 
 # Customize specific Markdown linter rules
 MARKDOWN_MD001: true  # Header levels should only increment by one level at a time
+MARKDOWN_MD002: false # Disable rule for first header should be a top level header
 MARKDOWN_MD003:
   style: atx  # Header style (atx: # Header, setext: Header\n===)
 MARKDOWN_MD004: true  # Unordered list style
+MARKDOWN_MD005: true  # Inconsistent indentation for list items at the same level
+MARKDOWN_MD006: true  # Consider starting bulleted lists at the beginning of the line
+MARKDOWN_MD007: true  # Unordered list indentation
 MARKDOWN_MD009: true  # Trailing spaces
-MARKDOWN_MD013:  # Line length
-  line_length: 80
+MARKDOWN_MD010: true  # Hard tabs
+MARKDOWN_MD011: true  # Reversed link syntax
+MARKDOWN_MD012: true  # Multiple consecutive blank lines
+MARKDOWN_MD013: true  # Line length
+MARKDOWN_MD014: true  # Dollar signs used before commands without showing output
+MARKDOWN_MD018: true  # No space after hash on atx style header
+MARKDOWN_MD019: true  # Multiple spaces after hash on atx style header
+MARKDOWN_MD022: true  # Headings should be surrounded by blank lines
+MARKDOWN_MD023: true  # Headers must start at the beginning of the line
 MARKDOWN_MD024: true  # Multiple headers with the same content
 MARKDOWN_MD025: true  # Multiple top-level headers in the same document
+MARKDOWN_MD026: true  # Trailing punctuation in header
+MARKDOWN_MD027: true  # Multiple spaces after blockquote symbol
+MARKDOWN_MD028: true  # Blank line inside blockquote
+MARKDOWN_MD029: true  # Ordered list item prefix
+MARKDOWN_MD030:  # Spaces after list markers
+  no-space-around: 
+    - "*"
+  ul-style: consistent
 MARKDOWN_MD031: true  # Fenced code blocks should be surrounded by blank lines
+MARKDOWN_MD032: true  # Lists should be surrounded by blank lines
+MARKDOWN_MD033: true  # Inline HTML
+MARKDOWN_MD034: true  # Bare URLs
+MARKDOWN_MD035: true  # Horizontal rule style
+MARKDOWN_MD036: true  # Emphasis used instead of a header
+MARKDOWN_MD037: true  # Spaces inside emphasis markers
+MARKDOWN_MD038: true  # Spaces inside code span elements
+MARKDOWN_MD039: true  # Spaces inside link text
+MARKDOWN_MD040: true  # Fenced code blocks should have a language specified
 MARKDOWN_MD041: true  # First line in a file should be a top-level header
