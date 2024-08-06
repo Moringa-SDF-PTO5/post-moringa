@@ -26,7 +26,7 @@ Commit messages should be clear, concise, and descriptive. Follow these rules fo
 1. **Separate subject from body with a blank line**  
    Example:
 
-```
+```{txt}
 Add user login feature
 
 Implemented user authentication using JWT.
@@ -52,7 +52,7 @@ This helps maintain readability in various interfaces.
 7. **Use the body to explain what and why vs. how**  
 Example:
 
-```
+```{txt}
 Refactor user authentication module
 
 Moved authentication logic to a separate service.
@@ -61,7 +61,7 @@ This improves code maintainability and separation of concerns.
 ```
 
 
-## Pull Request Checklist:
+## Pull Request Checklist
 
 - [ ] My code follows the style guidelines of this project.
 - [ ] I have performed a self-review of my own code.
